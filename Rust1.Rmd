@@ -1,0 +1,33 @@
+## 安裝rustup
+
+這會安裝最新版本的Rust，並且會自動更新。
+
+```{}
+curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+```
+
+如果成功，會得到以下訊息：
+
+```{}
+Rust is installed now. Great!
+```
+
+
+### 檢查版本
+
+```{}
+rustc --version
+```
+
+```{bash}
+git clone https://github.com/kyclark/command-line-rust.git
+```
+
+```{bash}
+cd command-line-rust/01_hello
+```
+
+```{bash}
+cargo test
+```
+
